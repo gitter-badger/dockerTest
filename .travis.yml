@@ -6,15 +6,12 @@ compiler:
 - gcc
 os:
 - linux
-- windows
+- osx
 before_install:
 - echo $LANG
 - echo $LC_ALL
 branches:
 - master
-notifications:
-  email:false
 env:
  global:
  - LANG="en_US.UTF-8"
-
